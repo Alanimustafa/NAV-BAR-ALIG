@@ -1,0 +1,46 @@
+body {
+  display: block;
+}
+
+
+h1 {
+  color: rgb(35, 131, 255);
+}
+
+.maincontainer1,
+.maincontainer2,
+.maincontainer3,
+.maincontainer4
+{
+  display: flex;
+  border: dotted red;
+  width: auto;
+  height:auto;
+  margin-top: 3vh;;
+}
+
+#maincontainer4 {
+  justify-content: center;
+}
+
+.link {
+  width: 200px;
+  height: 5vh;
+  border: solid black 3px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin: 3px
+}
+
+#link2 {
+  margin-left:auto;
+}
+
+#link5 {
+  margin-left:auto;
+}
+
+#link1 {
+  margin-left:auto;
+}
