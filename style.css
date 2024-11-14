@@ -2,7 +2,6 @@ body {
   display: block;
 }
 
-
 h1 {
   color: rgb(35, 131, 255);
 }
@@ -10,7 +9,11 @@ h1 {
 .maincontainer1,
 .maincontainer2,
 .maincontainer3,
-.maincontainer4
+.maincontainer4,
+.secondcontainer1,
+.secondcontainer2,
+.secondcontainer3,
+.secondcontainer4
 {
   display: flex;
   border: dotted red;
@@ -23,7 +26,14 @@ h1 {
   justify-content: center;
 }
 
-.link {
+
+#secondcontainer1 {
+  justify-content:center;
+}
+
+.link,
+.secondLink
+ {
   width: 200px;
   height: 5vh;
   border: solid black 3px;
@@ -43,4 +53,69 @@ h1 {
 
 #link1 {
   margin-left:auto;
+}
+
+
+/* Second Activity */
+.secondcontainer1 {
+  justify-content: space-between;
+}
+
+#secondLink4 {
+  margin-left:auto;
+}
+
+#secondLink3 {
+  margin: auto;
+}
+
+#secondLink42
+{
+margin-left:auto;
+}
+
+#secondLink43 {
+  margin-right: auto;
+}
+
+.flexCard-MainContainer {
+  display:block;
+  /* border:solid lightgrey 2px; */
+  width: auto;
+  height: auto;
+  margin: 15%;
+}
+
+.firstRow,
+.secondRow {
+  display: flex;
+  justify-self: center;
+}
+
+img {
+  width: auto;
+  height: auto;
+}
+
+.cards {
+  display: block;
+  width: 200px;
+  height:300px;
+  border: solid gray;
+}
+
+.cardsImages {
+  width: auto;
+  height:50%;
+  border: solid gray;
+  margin: 2px;
+}
+
+.headingText {
+  margin: 0;
+}
+
+.cardsText {
+  margin: 2px;
+  font-size:10px;
 }
